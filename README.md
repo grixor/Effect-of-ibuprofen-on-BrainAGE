@@ -25,7 +25,7 @@ https://clinicaltrials.gov/ct2/show/NCT02507219?term=Ibuprofen+fmri&rank=1
 ## Funding
 Funding for this study was provided by the William K. Warren Foundation and the National Institute of Mental Health 
 
-## Description
+# Descriptions
 The repo currently consists of 3 files:
 
 *ibuBrainAGE.R*: This R script computes BrainAGE on the ibuprofen dataset (Dataset 2) and tests for the effect of different ibuprofen dosage (placebo, 200mg, 600mg) on BrainAGE
