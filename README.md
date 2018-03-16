@@ -29,6 +29,9 @@ Funding for this study was provided by the William K. Warren Foundation and the 
 
 ## Description
 The repo currently consists of 3 files:
+
 *ibuBrainAGE.R*: This R script computes BrainAGE on the ibuprofen dataset (Dataset 2) and tests for the effect of different ibuprofen dosage (placebo, 200mg, 600mg) on BrainAGE
+
 *ibuDataNoImaging.RData*: demographics data of the ibuprofen dataset, imaging data not included
+
 *ibuResults.RData*: predicted BrainAGE of participants in the ibuprofen dataset
