@@ -1,5 +1,3 @@
-# Effect-of-ibuprofen-on-BrainAGE
-
 ## Effect of Ibuprofen on BrainAGE: a randomized, placebo-controlled, dose-response exploratory study
 
 Written by Trang Le
