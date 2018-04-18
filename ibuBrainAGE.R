@@ -95,7 +95,10 @@ residualAge.drug3 <- nlme::lme(error ~ drug*Gender + drug*bmiEst,
 # Calculate confidence intervals
 # redo residualAge.drug2 with the with the lmerTest package
 # to apply the confint function
-residualAge.drug0 <- lmerTest::lmer(error ~ drug + Gender + bmiEst + (1 | id), data = lme.dat)
+# residualAge.drug0 <- lmerTest::lmer(error ~ drug + Gender + bmiEst + (1 | id), data = lme.dat)
+residualAge.drug0 <- lmerTest::lmer(error ~ drug + (1 | id), data = lme.dat) 
+# updated after revision round 2, exclude gender and BMI
+            
 summary(residualAge.drug0)
 difflsmeans(residualAge.drug0, ddf = "Kenward-Roger")
 confint(residualAge.drug0, method = "profile")
